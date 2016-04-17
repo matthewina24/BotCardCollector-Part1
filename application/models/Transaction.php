@@ -38,6 +38,17 @@
         return $return;
 
 		}
-
+		//delete all transactions
+		function delete_trans()
+		{
+		$this->db->where('1=1');
+		$this->db->delete('transactions');
+		}
+		//Delete all Collections
+		function delete_collection()
+		{
+		$this->db->where('1=1');
+		$this->db->delete('collections');
+		}
 	
 	}
