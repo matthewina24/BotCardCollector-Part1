@@ -7,6 +7,8 @@
 
 ?>
 
-Player Name: {Player} Player Peanuts: {Peanuts}</br>
-
-
+<tr>
+	<td ><img src="/{Avatar}" height="120" width="120"/></td>
+	<td >{Player}</td>
+	<td >{Peanuts}</td>
+</tr>
